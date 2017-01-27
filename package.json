@@ -1,0 +1,32 @@
+{
+  "name": "label2srt",
+  "version": "0.0.1",
+  "description": "Converts Audacity labels (txt files) into SubRip (srt files)",
+  "main": "index.js",
+  "bin": {
+    "label2srt": "index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node index ./test/audacitylabels.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onokumus/label2srt.git"
+  },
+  "keywords": [
+    "audacity",
+    "SubRip"
+  ],
+  "author": "onokumus <onokumus@gmail.com> (https://github.com/onokumus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onokumus/label2srt/issues"
+  },
+  "homepage": "https://github.com/onokumus/label2srt#readme"
+}
