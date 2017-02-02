@@ -1,6 +1,6 @@
 {
   "name": "label2srt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts Audacity labels (txt files) into SubRip (srt files)",
   "main": "index.js",
   "bin": {
@@ -23,10 +23,33 @@
     "audacity",
     "SubRip"
   ],
-  "author": "onokumus <onokumus@gmail.com> (https://github.com/onokumus)",
+  "author": "Osman Nuri Okumuş <onokumus@gmail.com> (https://github.com/onokumus)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/onokumus/label2srt/issues"
   },
-  "homepage": "https://github.com/onokumus/label2srt#readme"
+  "homepage": "https://github.com/onokumus/label2srt#readme",
+  "verb": {
+    "layout": "global",
+  "toc": {
+    "collapsible": true,
+    "method": "preWrite"
+  },
+  "tasks": [
+    "readme"
+  ],
+  "plugins": [
+    "gulp-format-md"
+  ],
+  "related": {
+    "list": [
+      "twbuttons",
+      "metismenu"
+    ]
+  },
+  "reflinks": [
+    "twbuttons",
+    "metismenu"
+  ]
+}
 }
