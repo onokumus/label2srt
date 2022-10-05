@@ -1,6 +1,6 @@
 {
   "name": "label2srt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converts Audacity labels (txt files) into SubRip (srt files)",
   "main": "index.js",
   "bin": {
