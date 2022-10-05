@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 var fs = require('fs');
-var path = require('path');
 var sec = require('./lib/sec');
 
 /** Label track exported from Audacity, should be a .txt. */
